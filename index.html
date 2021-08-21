@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>iMac</title>
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <section class="d-lg-flex container-fluid my-5">
+        <div class="col-lg-6 col-sm-12 mx-3">
+            <img class="img-fluid" src="images/mac.png" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-12 mx-3">
+            <div>
+                <h1>Customize Your Blue 24-inch iMac with Apple M1 chip.</h1>
+            <p>
+                Apple M1 chip with 8-core CPU with 4 parformance cores and 4 efficieny cores, 7-core GPU, 16-core Neural Engine 8GB unified memory 256GB SSB Two Thunderbolt / USB 4 Ports Magic Mouse Magic Keyboard US English
+            </p>
+            </div>
+            <div class="my-5">
+                <h1>Memory</h1>
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group1">
+                        <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary me-4" for="btnradio1">8GB unified memory</label>
+                      
+                        <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary me-4" for="btnradio2">16GB unified memory</label>
+                      </div>
+            </div>
+
+            <div class="my-5">
+                <h1>Storage</h1>
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group2">
+                    <input type="radio" class="btn-check" name="btnradio2" id="btn2radio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary me-4" for="btn2radio1" >256GB SSD storage</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio2" id="btn2radio2" autocomplete="off">
+                    <label class="btn btn-outline-primary me-4" for="btn2radio2">512GB SSD storage</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio2" id="btn2radio3" autocomplete="off">
+                    <label class="btn btn-outline-primary me-4" for="btn2radio3">1TB SSD storage</label>
+                  </div>
+            </div class="my-5">
+            <div>
+                <h1>Choose Your delivery option</h1>
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group3">
+                    <input type="radio" class="btn-check" name="btnradio3" id="btn3radio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary me-4" for="btn3radio1">Friday, Aug 25 FREE Prime Deliverry</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio3" id="btn3radio2" autocomplete="off">
+                    <label class="btn btn-outline-primary me-4" for="btn3radio2">Friday, Aug 21 Deliverry charge $20</label>
+                  </div>  
+            </div>
+            <div class="container-fluid mt-5">
+                <div class="col-6">
+                    <div class="d-flex justify-content-between">
+                        <h5>Best Price</h5>
+                        <h5>$<span>1299</span></h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <h5>Extra Memory Cost</h5>
+                        <h5>$<span>0</span></h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <h5>Extra Storage Cost</h5>
+                        <h5>$<span>0</span></h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <h5>Deliverry charge</h5>
+                        <h5>$<span>0</span></h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <h5>Total Price</h5>
+                        <h5>$<span>1299</span></h5>
+                    </div>
+                    <hr>                    
+                </div>
+                <p>Add Pomo code</p>
+                <form>
+                        <input type="text" name="pomo">
+                    <button type="button" class="btn btn-danger">Apply</button>
+                  </form>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <hr>
+        <h1 class="text-center my-4">Total: $<span id="grand-total"">1299</span></h1>
+    </section>
+
+
+    <!-- bootstrap script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- intanal Js  -->
+    <script src="app.js"></script>
 </body>
 </html>
